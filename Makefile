@@ -26,7 +26,7 @@ run-client:
 
 .PHONY: install
 install:
-	@virtualenv -p python3 env && . env/bin/activate && pip install -r src/requirements.txt
+	@cd deployment && bash install.sh
 
 .PHONY: configure-audio
 configure-audio:
