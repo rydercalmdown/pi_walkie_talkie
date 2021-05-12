@@ -7,6 +7,7 @@ sudo apt-get install -y \
         python3-pip \
         libffi-dev \
         libssl-dev \
+        mpg321 \
         portaudio19-dev
 python3 -m pip install virtualenv
 python3 -m virtualenv -p python3 env
